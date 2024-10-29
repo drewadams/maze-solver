@@ -5,6 +5,6 @@ def main():
     maze = gen_maze()
     solver = Solver(maze)
     solver.solve()
-    print(solver.check_solution())
+    # print(solver.check_solution())
 
 main()

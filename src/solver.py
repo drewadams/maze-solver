@@ -68,6 +68,7 @@ class Solver:
         for row in maze_copy:
             print("".join(row))
 
+    # this doesn't work yet
     def check_solution(self):
         solution_maze = self.initial_maze.copy()
         current = self.final_path.pop(0)
