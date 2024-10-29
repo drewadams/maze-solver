@@ -1,26 +1,9 @@
-# MAKE SURE TO INIT VIRTUAL ENV
+# Maze solver
 
-## VENV
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-## Also install
-
-```bash
-pip install -r requirements.txt
-```
+basic 8x13 maze solver in python. no third party libraries. includes a basic stack class.
 
 ## To run
 
 ```
 ./main.sh
-```
-
-## Tests
-
-```
-./test.sh
 ```
